@@ -2,11 +2,26 @@
   "name": "manetheren",
   "version": "1.0.0",
   "description": "We walk the footsteps of our fathers The trail blazed by our mothers They bought the land with their blood Long ago Long ago Oh, sing Sing of Manetheren Oh, weep Weep for the blood of Aemon Oh, cry Cry for Manetheren Long ago Long ago",
+  "workspaces": [
+    "packages/*"
+  ],
   "main": "index.js",
   "scripts": {
+    "build": "tsc --build --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "ts-node": "^10.9.1"
+  }
 }
