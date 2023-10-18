@@ -1,0 +1,12 @@
+{
+  "name": "manetheren",
+  "version": "1.0.0",
+  "description": "We walk the footsteps of our fathers The trail blazed by our mothers They bought the land with their blood Long ago Long ago Oh, sing Sing of Manetheren Oh, weep Weep for the blood of Aemon Oh, cry Cry for Manetheren Long ago Long ago",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
